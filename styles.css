@@ -1,0 +1,292 @@
+
+
+p{
+    text-transform: capitalize;
+    font-family: Times, serif;
+}
+
+.Result-body{
+        display:inline-block;
+        background: linear-gradient( 
+            hsl(252, 100%, 67%) ,
+            hsl(241, 81%, 54%) 
+            );
+       
+        margin-top:80px;
+        margin-left:100px;
+        padding-top:10px;
+        padding-left:19px;
+        padding-right:19px;
+        border-radius: 22px;
+        width:270px;
+        height:400px;
+        
+
+     }
+.Res-1{
+        text-align:center;
+        color:hsl(0, 0%, 100%);
+        font-size:18px;
+     }
+     
+.Number{
+        text-align:center;
+        background:linear-gradient(
+             hsla(256, 72%, 46%, 1),
+            hsla(241, 72%, 46%, 0)
+
+        );
+        border-radius:50%;
+      
+       
+        width: 145px;
+        height: 145px;
+       
+        color:hsl(0, 0%, 100%);
+        margin:10px 60px;
+        
+
+       
+    }
+.Number-1{
+      font-size:50px;
+       padding-top:20px;
+     
+    }
+
+.Number-2{
+     font-size:20px;
+    }
+
+.Gr{
+       text-align:center;
+       color:hsl(0, 0%, 100%);
+       font-size:28px;
+      
+    }
+
+.text{ 
+        
+        text-align:center;
+        font-size:13px;
+        color:hsl(0, 0%, 100%); 
+        
+    }
+.br-text{
+ 
+   
+   
+}
+    
+.Sum{
+    position:absolute;
+    top:120px;
+    right:500px;
+    word-spacing: 40px;
+    }
+svg{
+ margin-bottom: 0px; 
+ height:15px;
+ 
+}
+
+.Sum-1{
+  
+
+}
+
+.Rea{
+ word-spacing:40px;
+ width:20rem;
+ padding:10px;
+ border-radius: 12px;
+ color:hsl(0, 100%, 67%);
+ background-color: hsla(0, 100%, 67%,0.2);
+}
+
+.Rea-1{
+    margin-left:12rem;
+}
+
+
+
+
+.Me{
+  background-color:hsla(39, 100%, 56%,0.3) ;
+  color: hsl(39, 100%, 56% );
+  word-spacing:40px;
+  left:200rem;
+  padding:10px;
+  border-radius: 12px;
+  width:20rem
+}
+
+
+
+
+.Me-1{
+    margin-left:12rem;
+    
+}
+
+
+
+
+.Ve{
+    color:hsl(166, 100%, 37%);
+    background-color:hsl(241, 100%, 89%);
+    word-spacing:40px;
+    left:200rem;
+    padding:10px;
+    border-radius: 12px;
+    width:20rem;
+}
+
+
+
+
+
+.Ve-1{
+    margin-left:13rem;
+}
+
+
+
+
+.Vis{
+    background-color:hsl(221, 100%, 96%);
+    color:hsl(234, 85%, 45%);
+    word-spacing:40px;
+    left:200rem;
+    padding:10px;
+    border-radius: 12px;
+    width:20rem;
+}
+
+
+.Vis-1{
+    margin-left:13rem;
+
+}
+
+
+#btn{
+    position: inherit;
+    width:15rem;
+    height:2rem;
+    border-color: black;
+    color:hsl(221, 100%, 96%);;
+    border-radius:20px;
+    background-color: hsl(224, 30%, 27%);
+    margin-left:80px;
+   
+
+
+}
+
+
+.attribution {
+        font-size: 15px; 
+        text-align: center; 
+        margin-top: 400px;
+        background-color:rgb(41, 35, 27)
+       }
+      
+.attribution a {
+        color: hsl(228, 45%, 44%);
+
+        }
+
+        @media only screen and (max-width: 600px) {
+            .Result-body{
+                margin-top:-13rem;
+                width:20rem;
+                height:32rem;
+                border-radius:40px;
+                margin-left:4rem;
+            }
+            .Res-1{
+                text-align:center;
+                color:hsl(0, 0%, 100%);
+                font-size:18px;
+                margin-top:200px;
+             }
+             .Number{
+                text-align:center;
+                background:linear-gradient(
+                     hsla(256, 72%, 46%, 1),
+                    hsla(241, 72%, 46%, 0)
+        
+                );
+                border-radius:50%;
+              
+                font-size:10px;
+                width:140px;
+                height: 140px;
+               
+                color:hsl(0, 0%, 100%);
+            
+                margin:10px 90px;
+                
+        
+               
+            }
+            .Number-1{
+                font-size:50px;
+                margin-top:0px;
+                
+              }
+          
+          .Number-2{
+               font-size:17px;
+               color:grey;
+               
+              }
+          
+          .Gr{
+                 text-align:center;
+                 color:hsl(0, 0%, 100%);
+                 font-size:28px;
+                 margin-top:9px;
+              }
+          
+           .text{
+
+                  
+                  text-align:center;
+                  font-size:13px;
+                  color:hsl(0, 0%, 100%);
+                  margin-top:9px;
+                  word-break: break all;
+              }
+
+            .Sum{
+   
+                top:120px;
+                right:700px;
+                word-spacing: 40px;
+                margin-left:5rem;
+                }
+
+            #btn{
+                    position: inherit;
+                    width:19rem;
+                    height:2rem;
+                    border-color: black;
+                    color:hsl(221, 100%, 96%);;
+                    border-radius:20px;
+                    background-color: hsl(224, 30%, 27%);
+                    margin-left:1rem;
+                    padding-top:1rem;
+                    padding-bottom:1.8rem;
+                
+                
+                }
+
+            .c-text{
+                  font-size:16px;
+            }
+              
+            
+        }
+   
